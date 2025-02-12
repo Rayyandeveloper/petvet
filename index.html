@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Petvet</title>
+    <style>
+        header{
+            /* height: 100vh;
+            width: 100%; */
+            background-image: url(img/Screenshot_2.png);
+            background-size: cover;
+            background-attachment: fixed;
+            border: 1px solid black;
+            position: relative;
+        }
+        .phone{
+            font-family: "Roboto", Arial, sans-serif;
+    background: #fff;
+    font-size: 17px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #999999;
+        }
+        .phone> a{
+            color: #000000;
+             font-size: 12px;
+        }
+       .icons{
+        border: 1px solid black;
+       }
+       .container{
+        height: 7vh;
+       }
+       nav{
+        position: sticky;
+        top: 0;
+        height: 15vh;
+       }
+       .logo{
+        margin-left: 10%;
+        margin-top: 1%;
+       }
+       .logopic{
+        font-size: 50px;
+        color: palevioletred;
+       }
+       .logotext{
+        margin-top: 1%;
+        
+       }
+       .logotext1{
+        font-size: large;
+        font-weight: bolder;
+
+       }
+       .logotext2{
+        font-size: small;
+        font-weight: bold;
+        color: palevioletred;
+       }
+       /* nav> ul> li> button{
+        margin-bottom: 15%;
+       } */
+        .text{
+            border: 1px solid black;
+            width: 40%;
+            padding: 2%;
+            margin-left: 5%;
+            margin-top:6% ;
+            margin-bottom: 7%;
+        }
+        /* .btnnum:hover{
+            color: yellow;
+        } */
+        .cards{
+            position: absolute;
+            top: 93%;
+            margin-left: 10%;
+        }
+         .card{
+            height: 240%;
+         }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row justify-content-between ">
+                <div class="col-12 col-md d-flex align-item-center">
+            <p class="phone"><span>Phone no:</span><a href="#">+00 1234 567</a>
+            <span>or email us:</span><a href="#">emailsample@email.com</a></p>
+                </div>
+                <div class="border col-12 col-md w-0 w-50  d-flex justify-content-end">
+                    <span class="border bg-white px-3 pt-2 ms-2 rounded-circle"><i class="fa-brands fa-facebook-f"></i></span>
+                    <span class="border bg-white px-3 pt-2 ms-2 rounded-circle"><i class="fa-brands fa-twitter"></i></span>
+                    <span class="instgram border bg-white px-3 pt-2 ms-2 rounded-circle"><i class="fa-brands fa-instagram"></i></span>
+                    <span class="dribble border bg-white px-3 pt-2 ms-2 rounded-circle"><i class="fa-brands fa-dribbble"></i><span>  
+                </div>     
+            </div>
+        </div>
+        <nav class="bg-white w-100 d-flex justify-content-between">
+            <div class="logo d-flex">
+                <span class="logopic">
+                    <i class="fa-solid fa-stethoscope"></i>
+                </span>
+                    <p class="logotext">
+                        <span class="logotext1">Petvet</span><br>
+                        <span class="logotext2">Pet Care</span>
+                    </p>
+            </div>
+            <ul class="list-unstyled mt-3 fs-5 fw-semibold d-md-flex ">
+                <li class="p-3"><a class="text-decoration-none" href="#">Home</a></li>
+                <li class="p-3"><a class="text-decoration-none" href="#">About</a></li>
+                <li class="p-3"><a class="text-decoration-none" href="#">Groomers</a></li>
+                <li class="p-3"><a class="text-decoration-none" href="#">Serives</a></li>
+                <li class="p-3"><a class="text-decoration-none" href="#">Blog</a></li>
+                <li class="p-3"><a class="text-decoration-none" href="#">Pricing</a></li>
+                <li class="p-3"><a class="text-decoration-none" href="#">Contact Us</a></li>
+                <li class="p-3"><button class="fw-semibold p-3 border-0 bg-danger  text-white ">Free Consultaion</button></li>
+            </ul>
+            
+        </nav>
+        <div class="text">
+             <p class="fs-1 fw-bold">The Kind of Care Your Pets Deserve</p>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</p>
+                <button class="bg-danger rounded border-0 text-white ms-2 p-3">Make an appoinment</button>
+                <button id="" class="btnnum bg-warning rounded border-0 text-white p-3">11-234-5678-9102</button>
+        </div>
+    </header>
+    <div class="cards container d-flex me-2">
+        <div class="card  bg-danger w-25 me-5 p-3"><h3>Veterinary Service</h3>
+            <p>Far far away, behind the word mountains.</p>
+        </div>
+        <div class="card bg-danger w-25 me-5 p-3"><h3>Pet Grooming</h3>
+        <p>Far far away, behind the word mountains.</p></div>
+        <div class="card bg-danger w-25 me-5 p-3"><h3>
+            Pet Setting</h3>
+        <p>Far far away, behind the word mountains.</p></div>
+    </div>
+
+</body>
+</html>
